@@ -1,6 +1,6 @@
 # 201504003 구본익
 # 2019.03.28 자정까지!!
-
+# Lab : 구구단 계산기
 print("몇단?")
 user_input = input()
 print("구구단", user_input, "단을 계산")
