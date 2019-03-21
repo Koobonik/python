@@ -1,3 +1,5 @@
+# 201504003 구본익
+# 2019.03.28 자정까지!!
 print("당신이 태어난 연도를 입력하세요")
 birth_year = input()
 age = 2020 - int(birth_year) + 1
