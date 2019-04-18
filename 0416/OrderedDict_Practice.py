@@ -21,8 +21,8 @@ dt3['ccc'] = 'Chicago'
 dt3['ddd'] = 'Manchester'
 dt3['eee'] = 'Tokyo'
 
-print('Dectionary\n', dt1.keys())
-print('Dectionary(Sort)\n', sorted(dt1.keys()))
+print('Dictionary\n', dt1.keys())
+print('Dictionary(Sort)\n', sorted(dt1.keys()))
 print('OrderedDict\n', dt2.keys())
 print('OrderedDict(Out of order)\n', dt3.keys())
 
