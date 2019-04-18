@@ -25,3 +25,7 @@ print('Dectionary\n', dt1.keys())
 print('Dectionary(Sort)\n', sorted(dt1.keys()))
 print('OrderedDict\n', dt2.keys())
 print('OrderedDict(Out of order)\n', dt3.keys())
+
+print("딕셔너리", dt1)
+print(dt2.values())
+print(dt3)
