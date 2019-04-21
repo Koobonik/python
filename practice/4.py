@@ -3,3 +3,6 @@
 from collections import OrderedDict
 
 f = OrderedDict()
+f["hello"] = "hi"
+
+print(f.items())

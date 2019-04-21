@@ -22,11 +22,13 @@ while True:
         for i in range(3):
             sum += 총점수들[i][0]
         print("국어 점수 입니다. %.2f" % (sum/3))
+        break
 
 print(총점수들)
 for i in range(3):
     sum += 총점수들[i][0]
 
 print("국어 평균점수 입니다 : ", sum/3)
-
+str = "hihihelloworld"
+print(str.count("l"))
 
