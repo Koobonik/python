@@ -1,4 +1,4 @@
-f = open("yesterday.txt", 'r')
+f = open("yesterday.txt", 'r')  #
 yesterday_lyric = f.readlines()
 f.close()
 
