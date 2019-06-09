@@ -9,3 +9,7 @@ for i, (a, b) in enumerate(zip(alist, blist)):
     print(i, a, b)
 
 
+# for i, (a1,b1) in enumerate(zip(alist,blist)):
+#     print(i, a1, b1)
+
+
