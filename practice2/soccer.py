@@ -11,12 +11,9 @@ class Person(object):
 
 
 class SoccerPlayer(Person):
-    def __init__(self, position, backNumber, Person):
+    def __init__(self, position, backNumber):
         self.position = position
         self.backNumber = backNumber
-        self.height = Person.height
-        self.weight = Person.weight
-        self.name = Person.name
 
 
     def __str__(self):
@@ -27,5 +24,6 @@ class SoccerPlayer(Person):
 person = Person("구본익", 175, 60)
 print(person)
 
-player = SoccerPlayer('forward', 50, person)
+player = SoccerPlayer('forward', 50)
 print(player)
+print(player.name)
