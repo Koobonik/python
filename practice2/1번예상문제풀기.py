@@ -10,7 +10,9 @@ import random
 while True:
     try:
         print(random.randint(0, 2))
+        print(random.choice)
         user_input = (int(input('숫자를 입력해주세요')))
+        break
 
     except(ZeroDivisionError, ValueError):
         print('숫자만 입력하라니까?')

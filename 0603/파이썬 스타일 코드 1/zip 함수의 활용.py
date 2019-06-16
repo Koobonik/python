@@ -13,3 +13,11 @@ for i, (a, b) in enumerate(zip(alist, blist)):
 #     print(i, a1, b1)
 
 
+for a, (i, j) in enumerate(zip("뻐킹1","뻐킹2")):
+    print(a, b, c)
+
+
+
+
+for i, j in enumerate(["본익이", "멍청함", "ㄹㅇ"]):
+    print(i, j)
