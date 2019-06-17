@@ -25,3 +25,11 @@ print(result2)
 
 result = [i + j for i in case_1 for j in case_2]
 print(result)
+
+try:
+    hello = int(input())
+except(ZeroDivisionError, ValueError):
+    print("다시 입력")
+finally:
+    print("잘")
+
